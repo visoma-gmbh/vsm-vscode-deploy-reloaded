@@ -1,13 +1,6 @@
 # vscode-deploy-reloaded
 
-[![Share via Facebook](https://raw.githubusercontent.com/mkloubert/vscode-deploy-reloaded/master/img/share/Facebook.png)](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmarketplace.visualstudio.com%2Fitems%3FitemName%3Dmkloubert.vscode-deploy-reloaded&quote=vscode-deploy-reloaded) [![Share via Twitter](https://raw.githubusercontent.com/mkloubert/vscode-deploy-reloaded/master/img/share/Twitter.png)](https://twitter.com/intent/tweet?source=https%3A%2F%2Fmarketplace.visualstudio.com%2Fitems%3FitemName%3Dmkloubert.vscode-deploy-reloaded&text=vscode-deploy-reloaded:%20https%3A%2F%2Fmarketplace.visualstudio.com%2Fitems%3FitemName%3Dmkloubert.vscode-deploy-reloaded&via=mjkloubert) [![Share via Google+](https://raw.githubusercontent.com/mkloubert/vscode-deploy-reloaded/master/img/share/Google+.png)](https://plus.google.com/share?url=https%3A%2F%2Fmarketplace.visualstudio.com%2Fitems%3FitemName%3Dmkloubert.vscode-deploy-reloaded) [![Share via Pinterest](https://raw.githubusercontent.com/mkloubert/vscode-deploy-reloaded/master/img/share/Pinterest.png)](https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fmarketplace.visualstudio.com%2Fitems%3FitemName%3Dmkloubert.vscode-deploy-reloaded&media=https://raw.githubusercontent.com/mkloubert/vscode-deploy-reloaded/master/img/demo1.gif&description=Recoded%20version%20of%20Visual%20Studio%20Code%20extension%20%27vs-deploy%27%2C%20which%20provides%20commands%20to%20deploy%20files%20to%20one%20or%20more%20destinations.) [![Share via Reddit](https://raw.githubusercontent.com/mkloubert/vscode-deploy-reloaded/master/img/share/Reddit.png)](https://www.reddit.com/submit?url=https%3A%2F%2Fmarketplace.visualstudio.com%2Fitems%3FitemName%3Dmkloubert.vscode-deploy-reloaded&title=vscode-deploy-reloaded) [![Share via LinkedIn](https://raw.githubusercontent.com/mkloubert/vscode-deploy-reloaded/master/img/share/LinkedIn.png)](https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fmarketplace.visualstudio.com%2Fitems%3FitemName%3Dmkloubert.vscode-deploy-reloaded&title=vscode-deploy-reloaded&summary=Recoded%20version%20of%20Visual%20Studio%20Code%20extension%20%27vs-deploy%27%2C%20which%20provides%20commands%20to%20deploy%20files%20to%20one%20or%20more%20destinations.&source=https%3A%2F%2Fmarketplace.visualstudio.com%2Fitems%3FitemName%3Dmkloubert.vscode-deploy-reloaded) [![Share via Wordpress](https://raw.githubusercontent.com/mkloubert/vscode-deploy-reloaded/master/img/share/Wordpress.png)](https://wordpress.com/press-this.php?u=https%3A%2F%2Fmarketplace.visualstudio.com%2Fitems%3FitemName%3Dmkloubert.vscode-deploy-reloaded&quote=vscode-deploy-reloaded&s=Recoded%20version%20of%20Visual%20Studio%20Code%20extension%20%27vs-deploy%27%2C%20which%20provides%20commands%20to%20deploy%20files%20to%20one%20or%20more%20destinations.&i=https://raw.githubusercontent.com/mkloubert/vscode-deploy-reloaded/master/img/demo1.gif) [![Share via Email](https://raw.githubusercontent.com/mkloubert/vscode-deploy-reloaded/master/img/share/Email.png)](mailto:?subject=vscode-deploy-reloaded&body=Recoded%20version%20of%20Visual%20Studio%20Code%20extension%20'vs-deploy'%2C%20which%20provides%20commands%20to%20deploy%20files%20to%20one%20or%20more%20destinations.:%20https%3A%2F%2Fmarketplace.visualstudio.com%2Fitems%3FitemName%3Dmkloubert.vscode-deploy-reloaded)
-
-
-[![Latest Release](https://vsmarketplacebadge.apphb.com/version-short/mkloubert.vscode-deploy-reloaded.svg)](https://marketplace.visualstudio.com/items?itemName=mkloubert.vscode-deploy-reloaded)
-[![Installs](https://vsmarketplacebadge.apphb.com/installs/mkloubert.vscode-deploy-reloaded.svg)](https://marketplace.visualstudio.com/items?itemName=mkloubert.vscode-deploy-reloaded)
-[![Rating](https://vsmarketplacebadge.apphb.com/rating-short/mkloubert.vscode-deploy-reloaded.svg)](https://marketplace.visualstudio.com/items?itemName=mkloubert.vscode-deploy-reloaded#review-details)
-
-Recoded version of [Visual Studio Code](https://code.visualstudio.com) extension [vs-deploy](https://github.com/mkloubert/vs-deploy), which provides commands to deploy files to one or more destinations.
+Forked version of [Visual Studio Code](https://code.visualstudio.com) extension [vs-deploy-reloaded](https://github.com/mkloubert/vscode-deploy-reloaded), which provides commands to deploy files to one or more destinations. Feel free to use the fork for yourself. Its primary focus was to fix isDate in older extensions by providing a workaround.
 
 The extension supports the following destinations:
 
@@ -49,8 +42,6 @@ The extension supports the following destinations:
      * [Targets](#targets-)
    * [How to execute](#how-to-execute-)
 5. [Install offline](#install-offline-)
-6. [Support and contribute](#support-and-contribute-)
-   * [Contributors](#contributors-)
 7. [Related projects](#related-projects-)
    * [node-enumerable](#node-enumerable-)
    * [node-simple-socket](#node-simple-socket-)
@@ -345,36 +336,6 @@ If you have problems with a newer version of that extension (or have no connecti
 * open the extension sidebar (`CTRL + SHIFT + X`)
 * click on the ellipsis in the right upper corner (`More`) 
 * choose `Install from VSIX...`
-
-## Support and contribute [[&uarr;](#table-of-contents)]
-
-If you like the extension, you can support the project by sending a [donation via PayPal](https://paypal.me/MarcelKloubert) to [me](https://github.com/mkloubert).
-
-To contribute, you can [open an issue](https://github.com/mkloubert/vscode-deploy-reloaded/issues) and/or fork this repository.
-
-To work with the code:
-
-* clone [this repository](https://github.com/mkloubert/vscode-deploy-reloaded)
-* create and change to a new branch, like `git checkout -b my_new_feature`
-* run `npm install` from your project folder
-* open that project folder in Visual Studio Code
-* now you can edit and debug there
-* commit your changes to your new branch and sync it with your forked GitHub repo
-* make a [pull request](https://github.com/mkloubert/vscode-deploy-reloaded/pulls)
-
-If you like to create a translation, for example, you can take a look at [this directory](https://github.com/mkloubert/vscode-deploy-reloaded/tree/master/src/lang).
-
-The API documentation can be found [here](https://mkloubert.github.io/vscode-deploy-reloaded/).
-
-### Contributors [[&uarr;](#support-and-contribute-)]
-
-* [Robert Ehlers](https://github.com/rehlers)
-* [denis-gorin](https://github.com/denis-gorin)
-* [Jan Hajek](https://github.com/hajekj)
-* [Simon Hopwood](https://github.com/DrummerSi)
-* [Pelly](https://github.com/solid-pixel)
-* [Federico Salani](https://github.com/488kuroi)
-* [Yuping Zuo](https://github.com/zypA13510)
 
 ## Related projects [[&uarr;](#table-of-contents)]
 

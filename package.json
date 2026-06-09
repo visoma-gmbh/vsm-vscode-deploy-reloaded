@@ -1,9 +1,9 @@
 {
- "name": "vscode-deploy-reloaded",
- "displayName": "Deploy (Reloaded)",
+ "name": "vsm-vscode-deploy-reloaded",
+ "displayName": "Deploy (Reloaded 2026)",
  "description": "Deploys files of a workspace to a destination.",
- "version": "0.89.0",
- "publisher": "mkloubert",
+ "version": "0.89.1",
+ "publisher": "visomaGmbH",
  "engines": {
   "vscode": "^1.38.0"
  },
@@ -80537,8 +80537,7 @@
   "vscode:prepublish": "npm run compile",
   "compile": "tsc -p ./",
   "watch": "tsc -watch -p ./",
-  "postinstall": "node ./node_modules/vscode/bin/install",
-  "test": "npm run compile && node ./node_modules/vscode/bin/test",
+  "test": "npm run compile && node ./out/test/runTest.js",
   "tslint": "tslint --project tsconfig.json -t verbose"
  },
  "devDependencies": {
@@ -80569,10 +80568,11 @@
   "@types/sanitize-filename": "^1.6.3",
   "@types/tmp": "0.0.33",
   "@types/uuid": "^3.4.5",
+  "@types/vscode": "1.38.0",
   "@types/ws": "^5.1.2",
+  "@vscode/test-electron": "^2.4.1",
   "tslint": "^5.20.0",
-  "typescript": "3.4.5",
-  "vscode": "^1.1.36"
+  "typescript": "3.4.5"
  },
  "icon": "icon.png",
  "badges": [
@@ -80587,10 +80587,10 @@
  },
  "repository": {
   "type": "git",
-  "url": "https://github.com/mkloubert/vscode-deploy-reloaded"
+  "url": "https://github.com/visoma-gmbh/vsm-vscode-deploy-reloaded"
  },
  "bugs": {
-  "url": "https://github.com/mkloubert/vscode-deploy-reloaded/issues"
+  "url": "https://github.com/visoma-gmbh/vsm-vscode-deploy-reloaded/issues"
  },
  "readmeFilename": "README.md",
  "dependencies": {

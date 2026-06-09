@@ -17,6 +17,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+import './polyfill';  // MUST stay first — installs util.isDate before ssh2-streams loads
 const CompareVersion = require('compare-versions');
 import * as deploy_api from './api';
 import * as deploy_commands from './commands';
