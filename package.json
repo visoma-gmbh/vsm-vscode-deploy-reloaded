@@ -80635,10 +80635,10 @@
   "random-float": "^1.0.0",
   "sanitize-filename": "^1.6.3",
   "ssh2-sftp-client": "2.3.0",
-  "tmp": "0.0.33",
+  "tmp": "0.2.7",
   "uglify-js": "^3.6.0",
   "uuid": "^3.3.3",
-  "vscode-helpers": "^5.1.1",
+  "vscode-helpers": "^8.0.0",
   "ws": "^5.2.2"
  }
 }
